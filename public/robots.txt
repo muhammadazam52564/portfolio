@@ -1,0 +1,24 @@
+# Robots.txt for Azam Tech Labs
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://azamtechlabs.com/sitemap.xml
+
+# Crawl delay (optional - respect server resources)
+Crawl-delay: 1
+
+# Specific rules for common bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots if needed
+# User-agent: BadBot
+# Disallow: /
